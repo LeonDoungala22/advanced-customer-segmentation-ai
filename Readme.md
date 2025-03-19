@@ -40,15 +40,6 @@ The analysis leverages the Mall Customers dataset containing:
 
 ## Project Structure
 
-\`\`\`
-├── main.ipynb              # Complete analysis and implementation
-├── Dataset/
-│   └── Mall_Customers.csv  # Customer dataset
-├── requirements.txt        # Required Python packages
-├── .env                    # Environment variables (API keys)
-└── README.md               # Project documentation
-\`\`\`
-
 ## Setup & Execution
 
 1. Clone the repository
@@ -60,23 +51,23 @@ The analysis leverages the Mall Customers dataset containing:
 2. Install required packages
    \`\`\`bash
    pip install -r requirements.txt
-   \`\`\`
+1. Clone the repository
+   ```bash
+   git clone https://github.com/leon-doungala/advanced-customer-segmentation-ai.git
+   cd advanced-customer-segmentation-ai
+   ```
 
-3. Configure your OpenAI API key in a \`.env\` file (see \`.env.example\`)
+2. Install required packages
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Configure your OpenAI API key in a `.env` file (see `.env.example`)
 
 4. Launch the Jupyter notebook
-   \`\`\`bash
+   ```bash
    jupyter notebook main.ipynb
-   \`\`\`
-
-## Key Findings
-
-The analysis identified several distinct customer segments with unique characteristics:
-
-- **Premium Customers**: High-income, high-spending individuals ideal for luxury offerings
-- **Value Seekers**: Budget-conscious shoppers responsive to promotions and sales
-- **Mid-Market Segment**: Balanced income and spending patterns suitable for mainstream products
-- **Young Professionals**: Career-focused customers with specific spending preferences
+   ```
 - **Senior Conservative Spenders**: Older demographic with selective purchasing behavior
 
 ## Business Applications
